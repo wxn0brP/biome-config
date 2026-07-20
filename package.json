@@ -1,0 +1,26 @@
+{
+    "name": "@wxn0brp/biome",
+    "version": "0.0.1",
+    "description": "My biome config",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wxn0brP/biome-config.git"
+    },
+    "homepage": "https://github.com/wxn0brP/biome-config",
+    "author": "wxn0brP",
+    "license": "MIT",
+    "type": "module",
+    "main": "./biome.json",
+    "exports": {
+        ".": "./biome.json",
+        "./biome.json": "./biome.json"
+    },
+    "files": [
+        "biome.json",
+        "LICENSE",
+        "README.md"
+    ],
+    "dependencies": {
+        "@biomejs/biome": "^2.5.4"
+    }
+}
