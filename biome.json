@@ -27,6 +27,7 @@
 			"correctness": {
 				"recommended": true,
 				"noUnusedVariables": "off",
+				"useParseIntRadix": "off",
 				"noUnusedFunctionParameters": "off"
 			},
 			"suspicious": {
@@ -34,6 +35,9 @@
 				"noExplicitAny": "off",
 				"noConfusingVoidType": "off",
 				"noEmptyInterface": "off",
+				"noAssignInExpressions": "off",
+				"noTsIgnore": "off",
+				"noAsyncPromiseExecutor": "off",
 				"useIterableCallbackReturn": {
 					"level": "on",
 					"options": {
@@ -52,6 +56,7 @@
 				"noUselessThisAlias": "off",
 				"useOptionalChain": "off",
 				"useLiteralKeys": "off",
+				"noUselessContinue": "off",
 				"noBannedTypes": "off"
 			},
 			"performance": {
