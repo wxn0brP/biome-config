@@ -1,6 +1,6 @@
 {
     "name": "@wxn0brp/biome",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "My biome config",
     "repository": {
         "type": "git",
@@ -21,6 +21,6 @@
         "README.md"
     ],
     "dependencies": {
-        "@biomejs/biome": "^2.5.4"
+        "@biomejs/biome": "^2.5.10"
     }
 }
