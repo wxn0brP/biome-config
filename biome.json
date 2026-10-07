@@ -1,12 +1,14 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.5.10/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
 	"files": {
 		"includes": [
 			"src/**/*",
 			"test/**/*",
 			"front/src/**/*",
 			"valthera-e2e/**/*",
-			"rusalka/**/*"
+			"rusalka/**/*",
+			"**/tsconfig.json",
+			"**/tsconfig.*.json"
 		]
 	},
 	"formatter": {
@@ -42,6 +44,8 @@
 				"noAssignInExpressions": "off",
 				"noTsIgnore": "off",
 				"noAsyncPromiseExecutor": "off",
+				"noDocumentCookie": "off",
+				"noUnsafeDeclarationMerging": "off",
 				"useIterableCallbackReturn": {
 					"level": "on",
 					"options": {
@@ -65,8 +69,15 @@
 			},
 			"performance": {
 				"recommended": true,
-				"noAccumulatingSpread": "off"
+				"noAccumulatingSpread": "off",
+				"noDynamicNamespaceImportAccess": "off"
 			}
+		}
+	},
+	"json": {
+		"parser": {
+			"allowComments": true,
+			"allowTrailingCommas": true
 		}
 	},
 	"assist": {
